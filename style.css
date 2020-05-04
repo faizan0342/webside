@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: auto;
+    height: 50px;
+    background-color: #316DC3;
+}
+.img1{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+#twi{
+    width: 45px;
+    height: 25px;
+    margin-top: -40PX;
+}
+.img2{
+    width: 40px;
+    height: 22px;
+    cursor: pointer;
+    margin-left: 265px;
+    margin-top: 8px;
+}
+#ins{
+    width: 45px;
+    height: 25px;
+    margin-top: -3px;
+
+}
+.img3{
+    margin-top: -70px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+#yb{
+    height: 20px;
+    width: 30px;
+    margin-top: -39px;
+    margin-left: 347px;
+}
+.img4{
+    height: 24px;
+    width: 32px;
+    cursor: pointer;
+}
+#whatup{
+    width: 30px;
+    height: 28px;
+    margin-top: -20px;
+    margin-left: 390px;
+}
+.img5{
+   
+}
+.para1{
+    color:white;
+}
+#heading1{
+    margin-top: -25px;
+    margin-left: 570px;
+}
+#button1{
+    width: 60px;
+    height: 20px;
+    float: right;
+    margin-right: 350px;
+    margin-top: -20px;
+}
+.butt{
+    border: none;
+    height:25px;
+    width: 80px;
+    font-size: 12px;
+    cursor: pointer;
+    color:green;
+}
+#button2{
+    width: 60;
+    height: 25px;
+    float: right;
+    margin-right: 245px;
+    margin-top: -20px;
+}
+#button3{
+    width: 60;
+    height: 25px;
+    float: right;
+    margin-right: -165px;
+    margin-top: -20px;
+}
+#im6{
+    width: auto;
+    height: 75px;
+    background-color: #F7F8FA;
+}
+.img6{
+    margin-left: 170px;
+    margin-top: 13px;
+}
+#nav{
+    width:60%;
+    height: 50px;
+    margin-top: -54px;
+    margin-left: 400px;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content:flex-end;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0px;
+    
+}   
+ul li{
+    list-style: none;
+    position:relative;
+    padding:10px 15px;
+    transform: 0.5s;
+    box-sizing:border-box;
+    border-right:1px solid rgba(225, 225,225,.2);
+    border-radius: 20px;
+}
+ul li:last-child{
+    border-right:none;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+}
+ul li ul{
+    position: absolute;
+    background-color:white;
+    top:45px;
+    left:0px;
+    display: block;
+    width: 230px;
+    transition:0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+ul li:hover{
+    background-color:#316DC3;
+}
+ul li ul li{
+    border-right:1px solid rgba(225, 225,225,.2);
+    border-right: none; 
+}
+ul li:hover ul{
+    opacity: 1;
+    visibility:visible;
+}
+.home{
+    background-color: #316DC3;
+}
+.img7{
+    width: 1583px;
+}
+.container{
+    width: 1100px;
+    margin-left:260px;
+
+}
+#h1{
+    font-size: 20px;
+    color:royalblue;
+    
+    background-color:  #F7F8FA;
+    height: 600px;
+}
+span{
+    color: seagreen;
+}
+
+.ext{
+    height:70px;
+    background-color:   #F7F8FA;
+}
+#pra2{
+    width: 1200px;
+    height: 500px;
+    background-color :#F7F8FA;
+    margin-left: 200px;
+    color: black;
+    
+    
+}
+.h2{
+    font-size: 30px;
+    color:royalblue;
+    
+    background-color:  #F7F8FA;
+    height: 600px;
+}
+#h3{
+    color: royalblue;
+}
+#monthly1{
+    background-color:#F7F8FA ;
+    height:600px
+}
+#a1{
+    height: 400px;
+    background-color:white;
+    
+}
+#h4{
+font-size: 30px;
+font-family: inherit;
+color: royalblue;
+margin-left: 200px;
+margin-top: 60px;
+
+}
+#h5{
+    margin-left: 1000px;
+    margin-top: -37px;
+    color: royalblue;
+}
+.line{
+    margin-left: 202px;
+    color: green;
+}
+.a{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+.b{
+    width: 50px;
+    height: 3px;
+    background-color: green;
+    border-radius: 8px;
+    margin-left: 1000px;
+}
+hr{
+    margin-top: -2.6px;
+    width: 300px;
+    margin-left: 50px;
+}
+#online1{
+    margin-left: 200px;
+    margin-top: 35px;
+    width: 700px;
+}
+#mar{
+    width: 350px;
+    height: 200px;
+    background-color:white;
+    margin-top: -200px;
+    margin-left:1000px
+}
+.bla{
+    height: 300px;
+    background-color: #25272E;
+}
+.flo{
+    height:50px;
+    background-color: #316DD9;
+
+}
+.copy{
+    color: white;
+    margin-left: 250px;
+    position: relative;
+    top:20px;
+    
+}
+#aro{
+    height:5px;
+    width: 2;
+}
