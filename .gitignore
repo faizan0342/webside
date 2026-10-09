@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.log
+
+.vercel/
+backend/backups/
+.env.*
+!.env.example
+
+new.txt
+frontend/public/biglots-logo.png
+prepare-deployment.mjs
